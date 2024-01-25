@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Maymona</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#introduction" class="nav-item"><span class="fa fa-home"></span> Home</a>
+            <a href="#about" class="nav-item"><span class="fa fa-user"></span> About Me</a>
+            <a href="#contact" class="nav-item"><span class="fa fa-envelope"></span> Contact Me</a>
+        </nav>
+    </header>
+    
+    <main>
+        
+        <section class="introduction">
+            <div class="intro-text">
+                <p class="welcome-text">Welcome to my site</p>
+                <h1>Hi, I'm Maymona, a Software Engineer.</h1>
+                <p>Passionate Software Engineering student with hands-on experience in technical support and full-stack development. Actively seeking to leverage my skills in dynamic professional environments. <a href="Maymona-ArarCV.pdf" class="see-more" download="Maymona-ArarCV.pdf">Download my CV.</a></p>
+                <a href="mailto:ararmaymona@gmail.com" class="btn">Hire me !</a>
+                <a href="projects.html" class="btn">See My Project</a>
+
+            </div>
+            <div class="image-container">
+                <img src="me/Maymona.jpg" alt="Maymona" class="profile-image">
+            </div>            
+        </section>
+    </main>
+    <section id="about"class="hidden-section">
+        <div class="about-me-content">
+            <h2>About Me</h2>
+            <p>A dedicated Software Engineering student with a rich foundation in technical support and a growing expertise in full-stack development. I've successfully translated complex project requirements into actionable and efficient software solutions. My education and hands-on experience have equipped me with a substantial skill set, including fluency in PHP Laravel, C#, and Xamarin, bolstered by certifications in areas like ISTQB, cybersecurity, and UX design. I'm eager to apply my knowledge in collaborative, innovative environments.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="contact-content">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
+            <!-- Contact Form -->
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <p>Email: ararmaymona@gmail.com </p>
+                <p>Phone: +970594199997</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <script src="smooth-scroll.js"></script>
+</body>
+</html>
